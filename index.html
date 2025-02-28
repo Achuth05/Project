@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <h1>Weather App</h1>
+    <i id ="logo" class="fa-solid fa-cloud"></i>
+    <div class="container">
+        <form id="form">
+            <div class="input">
+                <input type="text" id="loc" placeholder="Search location">
+                <div id="suggestion-container"></div>
+            </div>
+            <div class="radio">
+                <div class="cel"><input type="radio" id="cel" name="temp" value="celsius"><label for="celsius">°C</label></div>
+                <div class="fahr"><input type="radio" id="fahr" name="temp" value="fahrenheit"><label for="fahrenheit">°F</label></div>
+            </div>
+            <button id="sub" type="submit">Submit</button>
+        </form>
+    </div>
+    
+    <script src="js\script.js"></script>
+</body>
+</html>
